@@ -3,3 +3,7 @@ description: "Replying to participants"
 runs:
   using: "node16"
   main: "index.js"
+inputs:
+  token:
+    description: "github token"
+    required: true
